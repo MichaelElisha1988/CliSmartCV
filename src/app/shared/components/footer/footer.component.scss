@@ -1,0 +1,74 @@
+#footer {
+  background-color: var(--var-backgraund-color);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  .first-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    color: var(--var-white);
+    font-size: 18px;
+    span {
+      color: var(--var-action-color);
+      font-size: 26px;
+      font-weight: 700;
+    }
+  }
+  .second-line {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    .socials {
+      display: flex;
+      gap: 50px;
+      a {
+        text-decoration: none;
+        color: var(--var-white);
+        font-size: 28px;
+        transition: 0.3s all ease-in-out;
+
+        &:hover {
+          transition: 0.3s all ease-in-out;
+          color: var(--var-action-color);
+          text-shadow: 0px 10px 30px var(--var-action-color);
+        }
+      }
+    }
+  }
+  .circ-list {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    .circ {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      background-color: var(--var-backgraund-color);
+      border-radius: 50%;
+      z-index: -1;
+      box-shadow: 1px 1px 60px 15px var(--var-action-color-two);
+      @for $i from 1 through 120ll {
+        &:nth-child(#{$i}) {
+          left: calc($i * 45) + px;
+          animation: 3s infinite bubble;
+          animation-delay: calc(random($limit: 9) + $i / 10) + s;
+        }
+      }
+    }
+
+    @keyframes bubble {
+      from {
+        bottom: -30px;
+        transform: scale(1);
+      }
+      to {
+        bottom: 70px;
+        transform: scale(0);
+        opacity: 0;
+      }
+    }
+  }
+}

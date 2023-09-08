@@ -1,0 +1,13 @@
+<section>
+  <div class="slider-wrap">
+    <div class="slider">
+      <ul class="card-list">
+        <li class="card" *ngFor="let rec of recomaddationData">
+          <div class="title">{{ rec.name }}</div>
+          <div class="date-of-work">{{ rec.position }}</div>
+          <div class="free-text">{{ rec.free_text }}</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

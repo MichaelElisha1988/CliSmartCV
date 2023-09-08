@@ -1,0 +1,24 @@
+<div class="profile-page">
+  <ul *ngIf="PersonalData !== undefined">
+    <li><span>Address:</span> {{ PersonalData.address }}</li>
+    <li>
+      <span>Phone: </span>
+      <a href="https://wa.me/9720524726498" target="_blank">{{
+        PersonalData.phoneNum
+      }}</a>
+    </li>
+    <li><span>Marital:</span> {{ PersonalData.marital }}</li>
+    <li>
+      <span>Language:</span>
+      <ul class="lan-list">
+        <li *ngFor="let lan of PersonalData.lang">
+          {{ lan.name }} - {{ lan.lvl }}
+        </li>
+      </ul>
+    </li>
+    <li>
+      <span>Email: </span>
+      <a href="mailto:mishaelifire@gmail.com">{{ PersonalData.email }}</a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,25 @@
+{
+  "dataName": "experience",
+  "data": [
+    {
+      "title": "Front End Developer, Partner",
+      "work_time": "FEB 2023 – PRESENT",
+      "free_text": "As a Front End Developer, I have the opportunity to contribute to the development of user-friendly interfaces, ensuring an exceptional digital experience for our customers."
+    },
+    {
+      "title": "Front End Developer, Vii Events",
+      "work_time": "MAY 2022 – JUN2023",
+      "free_text": "A multi-award-winning Metaverse events platform. My role was to work together with the backend team to provide an end-to-end working solution."
+    },
+    {
+      "title": "Junior Front End Developer, Vii Events",
+      "work_time": "NOV2020 - APR2022",
+      "free_text": "A multi-award-winning Metaverse events platform. The role required good knowledge and experience with web technologies (HTML, CSS, JavaScript), to build dynamic web-based apps."
+    },
+    {
+      "title": "QA, Vii Events",
+      "work_time": "FEB2020 - OCT2020",
+      "free_text": "A multi-award-winning Metaverse events platform. I created test plans according to product requirements for mobile, web, and backend, and provided test results and product feedback to expedite and improve our delivery."
+    }
+  ]
+}

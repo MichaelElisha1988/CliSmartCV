@@ -1,0 +1,70 @@
+.slider-wrap {
+  width: 70%;
+  height: 70vh;
+  background-color: var(--var-backgraund-color);
+  color: var(--var-white);
+  font-size: 28px;
+  margin: 30px auto;
+  border-radius: 30px;
+  box-shadow: 1px 1px 30px var(--var-action-color);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    .card-list {
+      animation-play-state: running;
+    }
+
+    overflow: auto;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+
+    .card-list {
+      background-color: aliceblue;
+    }
+  }
+
+  .card-list {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    padding: 10% 0 25% 0;
+    width: 70%;
+    // animation: rollTheText 30s infinite;
+
+    .card {
+      text-align: center;
+      .title {
+        font-size: 36px;
+        color: var(--var-action-color);
+        padding-bottom: 10px;
+      }
+      .date-of-work {
+        font-size: 22px;
+        color: var(--var-white-offset);
+        padding-bottom: 30px;
+      }
+      .free-text {
+        background-color: var(--var-white-offset);
+        padding: 20px 60px;
+        border-radius: 30px;
+        border: 1px var(--var-white) solid;
+        line-height: 35px;
+      }
+    }
+  }
+}
+@keyframes rollTheText {
+  from {
+    top: 25%;
+  }
+  to {
+    top: -125%;
+  }
+}

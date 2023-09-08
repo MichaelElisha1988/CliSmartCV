@@ -1,0 +1,30 @@
+.profile-page {
+  width: 50%;
+  background-color: var(--var-backgraund-color);
+  color: var(--var-white);
+  font-size: 28px;
+  margin: 30px auto;
+  border-radius: 30px;
+  box-shadow: 1px 1px 30px var(--var-action-color);
+  display: flex;
+  justify-content: center;
+
+  li {
+    margin: 30px 0;
+    a {
+      color: var(--var-white);
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        color: var(--var-action-color-two);
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+  span {
+    color: var(--var-action-color);
+  }
+  li > ul {
+    margin-left: 20px;
+  }
+}

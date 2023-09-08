@@ -1,0 +1,113 @@
+#header {
+  background-color: var(--var-backgraund-color);
+  display: flex;
+  gap: 2vw;
+  padding: 10px 60px;
+
+  .profile {
+    &:hover {
+      ~ .name {
+        transition: 0.3s all ease-in-out;
+        color: var(--var-action-color);
+        text-shadow: 0px 10px 30px var(--var-action-color);
+      }
+    }
+
+    .profile-background {
+      background: linear-gradient(
+        45deg,
+        var(--var-backgraund-color),
+        var(--var-action-color)
+      );
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+    img {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      z-index: 1;
+
+      ~ .profile-background {
+        animation-name: clickIt;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+    }
+    @keyframes clickIt {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    color: var(--var-action-color);
+    font-size: 38px;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .nav-bar {
+    display: flex;
+    gap: 2vw;
+    font-size: 28px;
+
+    a {
+      text-decoration: none;
+      color: var(--var-white-offset);
+      font-size: 30px;
+      transition: 0.3s all ease-in-out;
+      padding: 30px 0;
+
+      &:hover {
+        font-size: 36px;
+        transition: 0.3s all ease-in-out;
+        color: var(--var-white);
+        text-shadow: 0px 10px 30px var(--var-action-color);
+      }
+      &.active {
+        font-size: 36px;
+        transition: 0.3s all ease-in-out;
+        color: var(--var-action-color);
+        text-shadow: 0px 10px 30px var(--var-action-color);
+      }
+    }
+  }
+  .line-wrap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #header {
+    justify-content: space-around;
+    padding: 10px 10px;
+    .profile {
+      display: none;
+    }
+  }
+  .nav-bar a {
+    display: none;
+  }
+  .line-wrap {
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+    border: 1px solid var(--var-white-offset);
+    padding: 10px 15px;
+    border-radius: 30px;
+    .line {
+      height: 1px;
+      width: 40px;
+      content: "";
+      background-color: var(--var-white-offset);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dataName": "recommendation",
+  "data": [
+    {
+      "name": "Michal Shik 💎",
+      "position": "Account Executive at Solitics - The Joy of Data",
+      "date": "June 3, 2021, Michal was senior to Michael but didn't manage Michael directly",
+      "free_text": "Michael is an extraordinary person, not only because he is a fast self-learner, well organized, and a top professional, but mainly because he has a can-do attitude, great innovative thinking, hardworking, and dedicated to success on each person and project."
+    },
+    {
+      "name": "Stas Zaslavsky💡",
+      "position": "Chief Marketing Officer (CMO) at Homaze | TEDx Speaker | Entrepreneur | Startup Founder | 🧙‍♂️ Level 99 Marketing Wizard with",
+      "date": "April 22, 2021, Stas managed Michael directly",
+      "free_text": "I am so proud to have Michael working for us at VII Events! Michael shows great potential and skills, fast learner, and has a can-do attitude. Always available and always doing everything with a smile, working with Michael is a joy. You can be sure that's a person you can count on to deliver 100% results and even beyond. He is caring and thinking out of the box. Instead, problems deliver solutions! Top of the class Virtual Events Expert and Developer!"
+    },
+    {
+      "name": "Gilad Hanoch",
+      "position": "Marketing Operations Manager at Komodor",
+      "date": "April 11, 2021, Gilad was Michael’s client",
+      "free_text": "Michael is by far the most intelligent, practical, and technical issues manager that I have ever worked with. Michael helping me with everything that I need some help and it doesn't matter if it works issues to other issues. Michael very committed to his job and trying to find solutions every time something goes wrong. I'm very lucky to work with Michael."
+    },
+    {
+      "name": "Meyrav Apirion",
+      "position": "Human Resources Executive",
+      "date": "April 4, 2021, Meyrav was Michael’s client",
+      "free_text": "I had the privilege of working with Michael during the past year, on a 3 day event for the HR community. The experience was very rewarding both on a professional and personal level. Michael is that rare guy – a virtual event expert who understands both people and business needs."
+    }
+  ]
+}

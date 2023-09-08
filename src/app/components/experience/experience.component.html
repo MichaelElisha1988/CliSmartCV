@@ -1,0 +1,13 @@
+<section>
+  <div class="slider-wrap">
+    <div class="slider">
+      <ul class="card-list">
+        <li class="card" *ngFor="let exp of experienceData">
+          <div class="title">{{ exp.title }}</div>
+          <div class="date-of-work">{{ exp.work_time }}</div>
+          <div class="free-text">{{ exp.free_text }}</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
