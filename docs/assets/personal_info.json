@@ -1,0 +1,25 @@
+{
+  "dataName": "personalInfo",
+  "data": [
+    {
+      "address": "Isreal, Ashkelon",
+      "phoneNum": "(+972) 52-472-6498",
+      "marital": "Married + TwinMix",
+      "lang": [
+        {
+          "name": "Hebrew",
+          "lvl": "Mother tongue"
+        },
+        {
+          "name": "English",
+          "lvl": "Fluent"
+        },
+        {
+          "name": "Russian",
+          "lvl": "Mother tongue"
+        }
+      ],
+      "email": "mishaelifire@gmail.com"
+    }
+  ]
+}

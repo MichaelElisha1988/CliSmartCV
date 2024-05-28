@@ -1,0 +1,29 @@
+{
+  "dataName": "compKnowledge",
+  "data": [
+    {
+      "img": "",
+      "title": "Microsoft Office"
+    },
+    {
+      "img": "",
+      "title": "OBS Studio"
+    },
+    {
+      "img": "",
+      "title": "Zoom"
+    },
+    {
+      "img": "",
+      "title": "Sourcetree"
+    },
+    {
+      "img": "",
+      "title": "Blender"
+    },
+    {
+      "img": "",
+      "title": "Postman"
+    }
+  ]
+}

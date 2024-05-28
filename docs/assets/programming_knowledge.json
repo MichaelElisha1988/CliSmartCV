@@ -1,0 +1,30 @@
+{
+  "dataName": "ProgrammingKnowledge",
+  "data": [
+    {
+      "img": "",
+      "alt": "",
+      "title": "Angular Cli"
+    },
+    {
+      "img": "",
+      "alt": "",
+      "title": "JS"
+    },
+    {
+      "img": "",
+      "alt": "",
+      "title": "HTML, CSS/SCSS, JS"
+    },
+    {
+      "img": "",
+      "alt": "",
+      "title": "Python"
+    },
+    {
+      "img": "",
+      "alt": "",
+      "title": "C#"
+    }
+  ]
+}
