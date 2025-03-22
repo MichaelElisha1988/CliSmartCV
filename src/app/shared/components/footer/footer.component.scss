@@ -10,10 +10,10 @@
     justify-content: space-between;
     padding: 0 30px;
     color: var(--var-white);
-    font-size: 18px;
+    font-size: 1em;
     span {
       color: var(--var-action-color);
-      font-size: 26px;
+      font-size: 1.2em;
       font-weight: 700;
     }
   }
@@ -27,7 +27,7 @@
       a {
         text-decoration: none;
         color: var(--var-white);
-        font-size: 28px;
+        font-size: 1.4em;
         transition: 0.3s all ease-in-out;
 
         &:hover {

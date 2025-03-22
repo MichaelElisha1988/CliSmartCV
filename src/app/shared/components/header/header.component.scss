@@ -49,30 +49,31 @@
     display: flex;
     align-items: center;
     color: var(--var-action-color);
-    font-size: 38px;
+    font-size: 1.6em;
     transition: 0.3s all ease-in-out;
   }
 
   .nav-bar {
     display: flex;
+    align-items: center;
     gap: 2vw;
-    font-size: 28px;
+    font-size: 1.3em;
 
     a {
       text-decoration: none;
       color: var(--var-white-offset);
-      font-size: 30px;
+      font-size: 1.3em;
       transition: 0.3s all ease-in-out;
       padding: 30px 0;
 
       &:hover {
-        font-size: 36px;
+        font-size: 1.6em;
         transition: 0.3s all ease-in-out;
         color: var(--var-white);
         text-shadow: 0px 10px 30px var(--var-action-color);
       }
       &.active {
-        font-size: 36px;
+        font-size: 1.6em;
         transition: 0.3s all ease-in-out;
         color: var(--var-action-color);
         text-shadow: 0px 10px 30px var(--var-action-color);
